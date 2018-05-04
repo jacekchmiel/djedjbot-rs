@@ -1,0 +1,8 @@
+[package]
+name = "djedjbot"
+version = "0.1.0"
+authors = ["Jacek Chmiel <jacek@chmiel.cc>"]
+
+[dependencies]
+diesel = { version = "1.0.0", features = ["postgres"] }
+dotenv = "0.9.0"
